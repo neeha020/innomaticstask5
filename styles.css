@@ -1,0 +1,70 @@
+.section-courses {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.section-courses .course-box {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-courses .course-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: filter 0.3s ease;
+}
+
+.section-courses .course-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.section-courses .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.section-courses .card-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.section-courses .card-title:hover {
+    color: #fd1d1d;
+}
+
+.section-courses .card-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.section-courses .enroll-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #fd1d1d, #fcb045);
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.section-courses .enroll-button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #fcb045, #fd1d1d);
+}
+
+.navbar-nav {
+    margin-left: 30%;
+}
